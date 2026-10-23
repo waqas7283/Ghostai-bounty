@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GhostAI - Hire Waqas | Kasur</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{font-family:'Inter',sans-serif}
+.mono{font-family:'JetBrains Mono',monospace}
+.glass{background:rgba(255,255,255,0.05);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.1)}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-thumb{background:#333;border-radius:10px}
+</style>
+</head>
+<body class="bg-[#0a0a0a] text-white min-h-screen">
+<header class="border-b border-white/10 sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-xl">
+<div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-white text-black rounded-lg flex items-center justify-center font-bold">G</div>
+<span class="font-bold">GhostAI</span>
+<span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded-full">● 03716649231</span>
+</div>
+<a href="https://wa.me/923716649231?text=Salam%20Waqas%20bhai%20GhostAI%20website%20dekhi%20order%20karna%20hai" target="_blank" class="bg-[#25D366] text-black px-4 py-2 rounded-full text-sm font-bold">WhatsApp Now</a>
+</div>
+</header>
+
+<div class="max-w-6xl mx-auto px-4 py-6 grid md:grid-cols-2 gap-6">
+<!-- Left Chat -->
+<div class="flex flex-col h-[600px] glass rounded-2xl">
+<div id="chat" class="flex-1 p-4 overflow-y-auto space-y-4">
+<div class="text-center py-6">
+<h1 class="text-2xl font-bold">GhostAI - Super Fast</h1>
+<p class="text-white/50 text-sm mt-1">Built by Waqas • Kasur • Bug Hunter</p>
+</div>
+</div>
+<div class="p-3 border-t border-white/10">
+<div class="flex gap-2 bg-[#1a1a1a] rounded-xl p-2">
+<input id="input" placeholder="Ask: Find XSS in WHOOP..." class="flex-1 bg-transparent outline-none text-sm px-2" onkeydown="if(event.key==='Enter')send()">
+<button onclick="send()" class="w-9 h-9 bg-white text-black rounded-lg font-bold">↑</button>
+</div>
+</div>
+</div>
+
+<!-- Right Services -->
+<div class="space-y-4">
+<h2 class="text-xl font-bold">💰 Services - Order Now</h2>
+
+<div class="glass p-5 rounded-2xl border border-green-500/20">
+<div class="flex justify-between">
+<div><h3 class="font-bold">🐛 Bug Bounty Report</h3><p class="text-xs text-white/50 mt-1">HackerOne ready + PoC video</p><p class="text-green-400 font-bold mt-2">$25</p></div>
+<span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded h-fit">HOT</span>
+</div>
+<a href="https://wa.me/923716649231?text=Salam%20Waqas%20bhai%20Bug%20Bounty%20Report%20$25%20wali%20chahiye" target="_blank" class="mt-3 w-full bg-white text-black py-2.5 rounded-xl font-bold text-sm flex justify-center">🛒 Order Now - WhatsApp</a>
+</div>
+
+<div class="glass p-5 rounded-2xl">
+<h3 class="font-bold">🤖 AI Website Like This</h3><p class="text-xs text-white/50 mt-1">Same GhostAI for your business - 24hr</p><p class="text-green-400 font-bold mt-2">$50</p>
+<a href="https://wa.me/923716649231?text=Salam%20Waqas%20bhai%20GhostAI%20jaisi%20website%20banwani%20hai%20$50%20wali" target="_blank" class="mt-3 w-full bg-[#25D366] text-black py-2.5 rounded-xl font-bold text-sm flex justify-center">🛒 Order Now $50</a>
+</div>
+
+<div class="glass p-5 rounded-2xl">
+<h3 class="font-bold">🔍 Website Security Audit</h3><p class="text-xs text-white/50 mt-1">XSS, CORS, IDOR full scan</p><p class="text-green-400 font-bold mt-2">$100</p>
+<a href="https://wa.me/923716649231?text=Salam%20Waqas%20bhai%20Website%20Security%20Audit%20karwana%20hai" target="_blank" class="mt-3 w-full border border-white/20 py-2.5 rounded-xl font-bold text-sm flex justify-center hover:bg-white/10">🛒 Order Now</a>
+</div>
+
+<div class="bg-white text-black p-5 rounded-2xl">
+<h3 class="font-bold">🏆 Bug Bounty - My Work</h3>
+<div class="mt-3 space-y-2 text-sm">
+<div class="flex justify-between"><span>WHOOP - CORS</span><span class="font-bold text-green-600">Reported</span></div>
+<div class="flex justify-between"><span>WHOOP - Rate Limit Bypass</span><span class="font-bold">Found</span></div>
+<div class="flex justify-between"><span>Intigriti - Hunting</span><span class="font-bold">Live</span></div>
+</div>
+<p class="text-[11px] text-black/60 mt-3 mono">Contact: 03716649231 • Kasur, PK</p>
+<a href="https://wa.me/923716649231?text=Salam%20Waqas%20bhai%20Bug%20Bounty%20me%20help%20chahiye" target="_blank" class="mt-3 w-full bg-black text-white py-2 rounded-xl text-sm font-bold flex justify-center">Chat for Collaboration</a>
+</div>
+</div>
+</div>
+
+<!-- Float WhatsApp -->
+<a href="https://wa.me/923716649231" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition z-50">💬</a>
+
+<script>
+const chat=document.getElementById('chat'); const input=document.getElementById('input');
+function send(){const t=input.value.trim(); if(!t) return; add(t,'user'); input.value=''; setTimeout(()=>{add(getR(t),'ai')},400);}
+function getR(t){t=t.toLowerCase(); if(t.includes('xss')) return "⚡ WHOOP XSS payload ready! Full report ke liye Order Now dabao → Waqas direct help karega WhatsApp pe!"; if(t.includes('cors')) return "🔥 CORS = $500 bug! PoC code mere pas hai. Order Security Audit →"; if(t.includes('whoop')) return "🎯 WHOOP pe maine 2 bugs nikale hain. Details chahiye? WhatsApp pe aao 03716649231"; return "Salam! Main GhostAI hun - Waqas ne banaya hai Kasur me. Bug bounty ya website chahiye? Right side Order Now se direct WhatsApp karo - 03716649231";}
+function add(txt,who){const d=document.createElement('div'); d.className=who==='user'?'flex justify-end':'flex gap-2'; d.innerHTML=who==='user'?`<div class="bg-white text-black px-4 py-2 rounded-2xl text-sm max-w-[80%]">${txt}</div>`:`<div class="w-7 h-7 bg-white/10 rounded-lg flex items-center justify-center text-xs">G</div><div class="glass px-4 py-3 rounded-2xl text-sm max-w-[85%]">${txt}<br><a href="https://wa.me/923716649231" target="_blank" class="inline-block mt-2 text-xs bg-[#25D366] text-black px-3 py-1 rounded-full font-bold">WhatsApp 03716649231 →</a></div>`; chat.appendChild(d); chat.scrollTop=chat.scrollHeight;}
+</script>
+</body>
+  </html>
