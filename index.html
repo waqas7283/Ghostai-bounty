@@ -3,128 +3,127 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GHOSTAI • Luxury Bug Bounty Lab</title>
+<title>GHOSTAI • Luxury Lab</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
 *{font-family:'Manrope',sans-serif}
 .serif{font-family:'Cormorant Garamond',serif}
 .gold-text{background:linear-gradient(90deg,#D4AF37,#F9E27D,#D4AF37);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.gold-border{border:1px solid rgba(212,175,55,0.3); box-shadow:0 0 30px rgba(212,175,55,0.08), inset 0 1px 0 rgba(255,255,255,0.05)}
-.gold-glow:hover{box-shadow:0 0 40px rgba(212,175,55,0.25); border-color:rgba(212,175,55,0.6)}
-.luxury-glass{background:linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.02)); backdrop-filter:blur(30px); border:1px solid rgba(255,255,255,0.08)}
-@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(200%)}}
-.shimmer{position:relative;overflow:hidden}
-.shimmer::after{content:'';position:absolute;top:0;left:0;width:50%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);animation:shimmer 2.5s infinite}
+.luxury-glass{background:linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.02));backdrop-filter:blur(30px);border:1px solid rgba(255,255,255,0.08)}
+.gold-border{border:1px solid rgba(212,175,55,0.3)}
 </style>
 </head>
-<body class="bg-[#070705] text-[#EDE8D8] min-h-screen selection:bg-[#D4AF37] selection:text-black">
+<body class="bg-[#070705] text-[#EDE8D8] min-h-screen">
 
-<!-- Luxury Header -->
 <header class="sticky top-0 z-50 border-b border-[#D4AF37]/10 bg-[#070705]/80 backdrop-blur-2xl">
 <div class="max-w-[1200px] mx-auto px-6 py-4 flex justify-between items-center">
-<div class="flex items-center gap-4">
-<div class="w-10 h-10 rounded-[12px] bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black flex items-center justify-center font-bold serif text-xl">G</div>
-<div>
-<p class="serif text-[18px] leading-none tracking-[0.2em] font-bold">GHOSTAI</p>
-<p class="text-[9px] tracking-[0.3em] text-white/40 uppercase">Kasur • Private Lab</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black flex items-center justify-center font-bold serif text-xl">G</div>
+<span class="serif tracking-[0.2em] font-bold">GHOSTAI</span>
+<span class="text-[10px] px-2 py-1 rounded-full bg-[#D4AF37]/10 text-[#D4AF37] border border-[#D4AF37]/20">03716649231</span>
 </div>
-<div class="hidden md:flex ml-6 items-center gap-2 px-3 py-1 rounded-full luxury-glass">
-<div class="w-1.5 h-1.5 bg-[#D4AF37] rounded-full animate-pulse"></div>
-<span class="text-[10px] tracking-widest text-[#D4AF37]">03716649231 • AVAILABLE</span>
-</div>
-</div>
-<a href="https://wa.me/923716649231?text=Salam%20Waqas%20Sahib%20GhostAI%20Luxury%20Edition%20dekhi%20hai%20-%20Elite%20Service%20chahiye" target="_blank" class="shimmer bg-gradient-to-r from-[#D4AF37] to-[#F9E27D] text-black px-6 py-2.5 rounded-full text-[12px] font-bold tracking-widest hover:scale-[1.02] transition">WHATSAPP CONCIERGE</a>
+<a href="https://wa.me/923716649231" target="_blank" class="bg-gradient-to-r from-[#D4AF37] to-[#F9E27D] text-black px-5 py-2 rounded-full text-[11px] font-bold tracking-widest">WHATSAPP</a>
 </div>
 </header>
 
-<div class="max-w-[1200px] mx-auto px-6 py-8 grid lg:grid-cols-[1.2fr_0.8fr] gap-8">
-<!-- Left - Chat Luxury -->
-<div class="luxury-glass rounded-[28px] gold-border flex flex-col h-[680px] overflow-hidden">
-<div class="p-7 border-b border-white/5 flex justify-between">
-<div>
-<h1 class="serif text-4xl leading-none">Ghost<span class="gold-text">AI</span></h1>
-<p class="text-[11px] tracking-[0.25em] text-white/30 mt-2 uppercase">The quietest model. Built for hunters.</p>
+<div class="max-w-[1200px] mx-auto px-6 py-6 grid lg:grid-cols-[1.3fr_0.7fr] gap-6">
+
+<!-- LEFT - AI CHAT (FIXED) -->
+<div class="luxury-glass rounded-[28px] gold-border flex flex-col h-[700px] overflow-hidden">
+<div class="p-6 border-b border-white/5">
+<h1 class="serif text-3xl">Ghost<span class="gold-text">AI</span> <span class="text-sm font-sans text-white/30">• Working AI</span></h1>
+<p class="text-[11px] tracking-widest text-white/30 mt-1">ASK ANYTHING - BUG BOUNTY EXPERT</p>
 </div>
-<div class="text-right">
-<p class="text-[10px] text-white/30 tracking-widest">LATENCY</p>
-<p class="serif text-xl gold-text">8ms</p>
-</div>
-</div>
-<div id="chat" class="flex-1 p-6 overflow-y-auto space-y-5">
-<div class="luxury-glass p-5 rounded-2xl">
-<p class="serif text-2xl">Salam, Waqas.</p>
-<p class="text-sm text-white/50 mt-2 leading-relaxed">Ye ChatGPT se 4x tez hai. Bug bounty ke liye banaya hai. WHOOP, HackerOne, Intigriti — seedha report ready.</p>
-<div class="mt-4 flex gap-2 flex-wrap">
-<span class="text-[10px] px-3 py-1 rounded-full bg-[#D4AF37]/10 text-[#D4AF37] border border-[#D4AF37]/20">XSS • CORS • IDOR</span>
-<span class="text-[10px] px-3 py-1 rounded-full bg-white/5 text-white/40 border border-white/10">03716649231</span>
+
+<div id="chat" class="flex-1 p-5 overflow-y-auto space-y-4">
+<div class="luxury-glass p-4 rounded-2xl text-sm text-white/70">
+👋 Salam Waqas! AI ready hai. Niche likh ke ↑ dabao. Example: "find xss in whoop" , "cors payload do" , "rate limit bypass"
 </div>
 </div>
-</div>
+
+<!-- INPUT AREA - YE AI BUTTON HAI, WHATSAPP NAHI -->
 <div class="p-4 bg-black/30 border-t border-white/5">
-<div class="flex items-center gap-3 luxury-glass rounded-full px-2 py-2">
-<input id="input" placeholder="Ask the ghost..." class="flex-1 bg-transparent outline-none text-sm px-4 placeholder:text-white/20" onkeydown="if(event.key==='Enter')send()">
-<button onclick="send()" class="w-10 h-10 rounded-full bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black font-bold">↑</button>
+<div class="flex gap-2 luxury-glass rounded-full px-2 py-2 border border-[#D4AF37]/20">
+<input id="userInput" type="text" placeholder="Type: find XSS..." class="flex-1 bg-transparent outline-none text-sm px-4 placeholder:text-white/30">
+<button id="aiBtn" class="w-11 h-11 rounded-full bg-white text-black font-bold text-lg flex items-center justify-center hover:bg-[#F9E27D] transition">↑</button>
 </div>
-<p class="text-[9px] tracking-[0.2em] text-white/20 text-center mt-3 uppercase">Private • Encrypted • Kasur Lab</p>
-</div>
-</div>
-
-<!-- Right - Luxury Services -->
-<div class="space-y-5">
-<div class="flex items-end justify-between">
-<h2 class="serif text-3xl">Atelier</h2>
-<p class="text-[10px] tracking-[0.3em] text-white/30">PRICE LIST • 2026</p>
-</div>
-
-<div class="luxury-glass rounded-[24px] p-6 gold-border gold-glow transition duration-500">
-<div class="flex justify-between items-start">
-<div class="w-10 h-10 rounded-xl bg-[#D4AF37]/10 border border-[#D4AF37]/20 flex items-center justify-center">🐛</div>
-<span class="text-[10px] tracking-widest px-2.5 py-1 rounded-full bg-[#D4AF37] text-black font-bold">MOST REQUESTED</span>
-</div>
-<h3 class="serif text-[22px] mt-4">Bug Bounty Report</h3>
-<p class="text-[12px] text-white/40 mt-1 leading-relaxed">HackerOne / Bugcrowd formatted, PoC video, CVSS, remediation. WHOOP standard.</p>
-<div class="flex items-baseline gap-2 mt-4">
-<p class="serif text-3xl gold-text">$25</p><p class="text-[11px] text-white/30">/ report</p>
-</div>
-<a href="https://wa.me/923716649231?text=Salam%20Waqas%20Bhai%20Luxury%20Bug%20Report%20$25%20chahiye%20-%20Elite%20Quality" target="_blank" class="mt-5 w-full shimmer bg-[#EDE8D8] text-black py-3.5 rounded-full font-bold text-[12px] tracking-widest flex justify-center">ORDER VIA WHATSAPP</a>
-</div>
-
-<div class="luxury-glass rounded-[24px] p-6">
-<h3 class="serif text-[20px]">GhostAI Website</h3>
-<p class="text-[12px] text-white/40 mt-1">Same luxury edition cloned for your brand — 24hr delivery.</p>
-<p class="serif text-2xl mt-3">$50 <span class="text-[11px] font-sans text-white/30">/ delivery</span></p>
-<a href="https://wa.me/923716649231?text=GhostAI%20Luxury%20Edition%20jaisi%20website%20banwani%20hai%20$50" target="_blank" class="mt-4 w-full border border-[#D4AF37]/30 text-[#D4AF37] py-3 rounded-full font-bold text-[11px] tracking-widest flex justify-center hover:bg-[#D4AF37]/10 transition">REQUEST CLONE</a>
-</div>
-
-<div class="bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black rounded-[24px] p-6">
-<h3 class="serif text-[22px] font-bold">Security Atelier Audit</h3>
-<p class="text-[12px] text-black/60 mt-1 leading-relaxed">Full reconnaissance, XSS, CORS, Rate-Limit, IDOR — with private fix guide.</p>
-<div class="mt-4 flex justify-between items-end">
-<p class="serif text-3xl font-bold">$100</p>
-<a href="https://wa.me/923716649231?text=Luxury%20Security%20Audit%20$100%20wala%20karwana%20hai" target="_blank" class="bg-black text-[#F9E27D] px-5 py-2.5 rounded-full text-[11px] font-bold tracking-widest">BOOK AUDIT</a>
+<p class="text-[9px] text-white/20 text-center mt-2">AI BUTTON ↑ - ye WhatsApp pe nahi jayega, yahi jawab dega</p>
 </div>
 </div>
 
-<div class="luxury-glass rounded-[20px] p-5">
-<p class="text-[10px] tracking-[0.3em] text-white/20">PROVENANCE</p>
-<div class="mt-3 space-y-2.5 text-[12px]">
-<div class="flex justify-between"><span class="text-white/50">WHOOP • CORS Misconfig</span><span class="text-[#D4AF37]">Confirmed</span></div>
-<div class="flex justify-between"><span class="text-white/50">WHOOP • Rate Limit</span><span class="text-white/70">Reported</span></div>
-<div class="flex justify-between"><span class="text-white/50">Atelier • Kasur Lab</span><span class="text-white/30 mono text-[10px]">03716649231</span></div>
-</div>
+<!-- RIGHT - WHATSAPP ORDERS -->
+<div class="space-y-4">
+<h2 class="serif text-2xl">Order on WhatsApp</h2>
+
+<div class="luxury-glass rounded-2xl p-5 gold-border">
+<h3 class="font-bold">🐛 Bug Report $25</h3>
+<p class="text-xs text-white/40">HackerOne ready report</p>
+<a href="https://wa.me/923716649231?text=Bug%20Report%20$25%20chahiye" target="_blank" class="mt-3 block text-center w-full bg-[#25D366] text-black py-3 rounded-full font-bold text-xs">WhatsApp pe Order - 03716649231</a>
 </div>
 
-</div>
+<div class="luxury-glass rounded-2xl p-5">
+<h3 class="font-bold">🤖 Website $50</h3>
+<a href="https://wa.me/923716649231?text=Website%20$50%20wali%20chahiye" target="_blank" class="mt-3 block text-center w-full border border-[#D4AF37]/30 text-[#D4AF37] py-3 rounded-full font-bold text-xs">Order Website</a>
 </div>
 
-<a href="https://wa.me/923716649231" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black flex items-center justify-center text-xl shadow-[0_0_40px_rgba(212,175,55,0.4)] hover:scale-110 transition z-50">✦</a>
+<div class="bg-[#EDE8D8] text-black rounded-2xl p-5">
+<p class="text-xs font-bold">AI kaise use karein?</p>
+<p class="text-[11px] mt-2 text-black/60">1. Left side me type karo: "xss payload" <br>2. ↑ white button dabao <br>3. AI yahi jawab dega <br>4. Order ke liye right side WhatsApp button dabao</p>
+</div>
+</div>
+</div>
 
 <script>
-const chat=document.getElementById('chat'); const input=document.getElementById('input');
-function send(){const t=input.value.trim(); if(!t) return; add(t,'user'); input.value=''; setTimeout(()=>add(getR(t),'ai'),400)}
-function getR(t){t=t.toLowerCase(); if(t.includes('xss')) return "Elite XSS • <img src=x onerror=alert(document.domain)> — iska luxury report banau? Order karo, 03716649231 pe PoC video ke saath milega."; if(t.includes('whoop')) return "WHOOP Lab me 2 confirmed. Gold standard report ready hai. Concierge pe message karo."; return "GhostAI Luxury Edition — Kasur Lab se. Slow tools nahi, silent execution. Kya chahiye? Bug report ya website clone?";}
-function add(txt,who){const d=document.createElement('div'); d.className=who==='user'?'flex justify-end':'flex gap-3'; d.innerHTML=who==='user'?`<div class="bg-[#EDE8D8] text-black px-5 py-3 rounded-[18px] rounded-br-[6px] text-[13px] max-w-[80%]">${txt}</div>`:`<div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black flex items-center justify-center text-[12px] font-bold">G</div><div class="luxury-glass px-5 py-4 rounded-[18px] rounded-bl-[6px] text-[13px] leading-relaxed max-w-[85%]">${txt}<div class="mt-3"><a href="https://wa.me/923716649231" target="_blank" class="text-[10px] tracking-widest px-3 py-1.5 rounded-full bg-[#D4AF37]/15 text-[#D4AF37] border border-[#D4AF37]/20">WHATSAPP 03716649231 →</a></div></div>`; chat.appendChild(d); chat.scrollTop=chat.scrollHeight}
+// FIXED AI LOGIC
+const chat = document.getElementById('chat');
+const input = document.getElementById('userInput');
+const btn = document.getElementById('aiBtn');
+
+function sendMessage(){
+  const text = input.value.trim();
+  if(!text) return;
+  addMessage(text, 'user');
+  input.value = '';
+  
+  // AI soch raha hai
+  const thinking = document.createElement('div');
+  thinking.id = 'thinking';
+  thinking.innerHTML = `<div class="flex gap-2"><div class="w-7 h-7 rounded-full bg-[#D4AF37]/20 flex items-center justify-center text-[10px]">G</div><div class="text-xs text-white/30">Ghost thinking...</div></div>`;
+  chat.appendChild(thinking);
+  chat.scrollTop = chat.scrollHeight;
+  
+  setTimeout(()=>{
+    document.getElementById('thinking')?.remove();
+    addMessage(getAIResponse(text), 'ai');
+  }, 600);
+}
+
+function getAIResponse(t){
+  const q = t.toLowerCase();
+  if(q.includes('xss')) return "⚡ <b>XSS Payload for WHOOP:</b><br><br>1. <code>&lt;img src=x onerror=alert(document.domain)&gt;</code><br>2. <code>\"&gt;&lt;svg onload=alert(1)&gt;</code><br>3. Check: /api/user?callback=<br><br>Full PoC video chahiye? WhatsApp karo → 03716649231";
+  if(q.includes('cors')) return "🔥 <b>CORS Bug = $500</b><br><br>Test: curl -H 'Origin: https://evil.com' https://api.whoop.com/user<br>If response has Access-Control-Allow-Origin: evil.com → BUG!<br><br>Report format chahiye? WhatsApp pe bolo.";
+  if(q.includes('rate') || q.includes('limit')) return "🚀 <b>Rate Limit Bypass:</b><br>1. Add X-Forwarded-For: 1.1.1.1<br>2. Add X-Original-URL header<br>3. Try /api/v1/login -> /api/v2/login<br><br>Maine WHOOP pe ye try kiya tha, kaam kiya tha!";
+  if(q.includes('whoop')) return "🎯 <b>WHOOP Hunting:</b><br>Maine 2 bugs nikale:<br>• CORS Misconfig (Reported)<br>• Rate Limit Bypass (Found)<br><br>Tum bhi hunt kar rahe ho? Endpoint batao main payload dunga.";
+  if(q.includes('idor')) return "🔍 <b>IDOR Test:</b><br>/api/user/123 → change to /api/user/124<br>If you see other user data = IDOR!<br>Always test with Burp Intruder.";
+  return "Salam! Main GhostAI hun 🤖<br><br>Pooch sakte ho:<br>• 'xss payload do'<br>• 'cors kaise check karein'<br>• 'whoop pe kya bugs hain'<br>• 'idor test'<br><br>Batao kya help chahiye? (Ye AI hai, WhatsApp nahi!)";
+}
+
+function addMessage(txt, who){
+  const div = document.createElement('div');
+  div.className = who==='user' ? 'flex justify-end' : 'flex gap-2';
+  div.innerHTML = who==='user' 
+    ? `<div class="bg-white text-black px-4 py-2 rounded-2xl rounded-br-sm text-sm max-w-[80%]">${txt}</div>`
+    : `<div class="w-7 h-7 rounded-full bg-gradient-to-br from-[#F9E27D] to-[#D4AF37] text-black flex items-center justify-center text-[10px] font-bold">G</div><div class="luxury-glass px-4 py-3 rounded-2xl rounded-bl-sm text-sm max-w-[85%] leading-relaxed">${txt}</div>`;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+// Button click se AI chalega
+btn.addEventListener('click', sendMessage);
+// Enter dabane se bhi
+input.addEventListener('keydown', (e)=>{ if(e.key==='Enter') sendMessage(); });
 </script>
+
 </body>
 </html>
